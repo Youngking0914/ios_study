@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MyAlbum
 //
-//  Created by YoungK on 2021/05/10.
+//  Created by YoungK on 2021/05/16.
 //
 
 import UIKit
@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func hello(_ sender: UIButton) {
+        print("hello")
+    }
+    
 }
 

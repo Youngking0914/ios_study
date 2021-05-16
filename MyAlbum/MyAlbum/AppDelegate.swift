@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MyAlbum
 //
-//  Created by YoungK on 2021/05/10.
+//  Created by YoungK on 2021/05/16.
 //
 
 import UIKit
