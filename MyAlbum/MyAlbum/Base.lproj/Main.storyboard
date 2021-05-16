@@ -22,7 +22,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="print:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mds-4O-HNH"/>
+                                    <action selector="showAlert:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QQq-eW-EML"/>
                                 </connections>
                             </button>
                         </subviews>
