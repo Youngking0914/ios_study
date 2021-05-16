@@ -14,8 +14,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func hello(_ sender: UIButton) {
-        print("hello")
+    @IBAction func print(_ sender: Any) {
+        let alert = UIAlertController(title: "Hello", message: "message입니다!", preferredStyle: .alert)
+        let action = UIAlertAction(title: "확인", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
     
 }
